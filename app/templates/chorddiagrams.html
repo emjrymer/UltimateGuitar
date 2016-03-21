@@ -1,0 +1,10 @@
+{% extends 'base.html'%}
+
+{% block content %}
+<a href="{% url 'index_view' %}" class="home">Home</a>
+    {% autoescape off %}
+        {% for souper in soupers %}
+                {{ souper }}
+        {% endfor %}
+    {% endautoescape %}
+{% endblock %}
