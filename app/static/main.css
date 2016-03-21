@@ -1,4 +1,22 @@
-.home {
+a {
+    text-decoration: none;
+    cursor: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: none;
+    cursor: none;
+    color: black;
+}
+
+body{
+    background-image: url(http://i.stack.imgur.com/saZ01.jpg);
+    background-size:cover;
+
+}
+
+.ryzh22:hover {
     color: blue;
     cursor: auto;
 }
@@ -8,12 +26,24 @@
     cursor: auto;
 }
 
-a {
-    text-decoration: none;
-    cursor: none;
-    color: black;
+.home {
+    color: blue;
+    cursor: auto;
+}
+
+.form {
+    opacity:1;
+    text-align: right;
+    margin-right: 30px;
 }
 
 .container {
-    background: #e8f5e9;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSjll7URWniJ8YNVGmaauGN53zHu0A4WwI7SKFgi-uOGabIDUV);
+    background-size:cover;
+    opacity:0.9;
+    border-color: inherit;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    padding-right: 30px;
 }
